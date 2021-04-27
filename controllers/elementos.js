@@ -6,7 +6,7 @@ const getElementos = async( req, res = response ) => {
     console.log (elementos);
     res.json({
         ok: true,
-        listar: 'lista de elementos 20210427 04:19' ,
+        listar: 'lista de elementos 20210427 04:27' ,
         elementos 
     });
 }
