@@ -103,7 +103,7 @@ const eliminarElemento = async( req, res = response ) => {
 console.log(elementoId);
         const elemento = await Elemento.findById( elementoId );
 
-        if ( !elemento ) {
+        if ( !elemento ) { 
             return res.status(404).json({
                 ok: false,
                 msg: 'Elemento no existe por ese id'
